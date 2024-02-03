@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Protest Riot', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: #ffffff;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 38px;
+    margin-top: 45px;
+    margin-bottom: 26px;
+
+}
+
+p {
+    color: #ffffff;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 38px;
+    margin-top: 45px;
+    margin-bottom: 26px;
+}
+
+input {
+    background: rgba (255, 255, 255, 0.25);
+    border: 1px solid rgba (255, 255, 255, 0.2);
+    border-radius: 14px;
+    height: 74px;
+    width: 342px;
+    padding-left: 20px;
+    font-size: 30px;
+    line-height: 47px;
+    color: #8f22f1;
+    opacity: 0.7;
+}
+
+#input-two {
+    margin-top: 15px;
+}
+
+#input-three {
+
+    margin-top: 33px
+}
+
+button {
+    width: 105px;
+    height: 73px;
+    background: linear-gradient(200deg, #191970 0%, #191970 33.3%,
+     #222280 33.4%, #222280 66.4%, 
+     #333390 66.5%, #333390 100%);
+     color:white;
+     box-shadow: 0px 18px 48px rgba( 125, 33, 133, 0.50);
+     font-size: 24px;
+     border: none;
+     cursor: pointer;
+
+}
+
+button:hover{ 
+    opacity: 0.7;
+}
+
+button:active{
+     opacity: 0.5;
+
+
+     background: linear-gradient(188deg, #191970 0%, #191970 33.3%,
+     #222280 33.4%, #222280 66.4%, 
+     #333390 66.5%, #333390 100%);
+}
