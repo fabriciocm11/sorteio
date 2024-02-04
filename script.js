@@ -8,15 +8,13 @@ function valuesInput (){
     const min = Math.ceil(document.getElementById("input").value)
     const max = Math.floor(document.getElementById("input-two").value)
     const resultInput = document.getElementById("input-three")
-
-    const calc = Math.floor(Math.random() * (max - min + 1)) + min;
-    resultInput.value = calc
+     const   calc = Math.floor(Math.random()*(max - min +1 )) + min;
     
-    console.log(calc)
+   resultInput.value =  calc
+    
+    console.log(resultInput)
     
 }
-
-
 
 document.addEventListener("change", valuesInput)
 document.addEventListener("click",onclick)
